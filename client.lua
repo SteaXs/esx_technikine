@@ -82,9 +82,6 @@ Citizen.CreateThread(function()
 			if IsControlJustReleased(0, 38) then
 				if CurrentAction == 'menu_tech' then
 					if IsPedInAnyVehicle(PlayerPedId(), false) then
-						ESX.TriggerServerCallback('esx_technikine:Checktechtioaiuowj', function()
-
-						end)
 						local vehicle = GetVehiclePedIsUsing(PlayerPedId())
 						if IsVehicleDamaged(vehicle) then
 							ESX.ShowNotification("Jusu transporto priemone yra ~r~aplamdyta~s~, atsiprasome bet jus neperejote technikines!")

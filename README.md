@@ -8,3 +8,6 @@ This script is for your car. To see if it is street legal.
 4. execute the sql file
 5. type in server cfg under the es_extended and esx_licenses
 ``start esx_technikine``
+
+# To Do
+1. Needs only to have for one vehicle, not for all.

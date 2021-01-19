@@ -17,9 +17,6 @@ end)
 
 --Create Blips
 Citizen.CreateThread(function()
-	while Citizen.Wait(900000) do
-		print("esx_technikine is made by SteaX. Go to https://github.com/SteaXs")
-	end
 	for k,v in ipairs(Config.Zones) do
 		local blip = AddBlipForCoord(v)
 
@@ -33,7 +30,12 @@ Citizen.CreateThread(function()
 		AddTextComponentString("Technikine")
 		EndTextCommandSetBlipName(blip)
 	end
+	--Credits
+	while Citizen.Wait(900000) do
+		print("esx_technikine is made by SteaX. Go to https://github.com/SteaXs")
+	end
 end)
+
 
 --Create Marker
 Citizen.CreateThread(function()
